@@ -146,7 +146,6 @@ def print_course_info(info_curso:list, is_certificate_or_specialization:bool):
       print("")
 
 while True:
-  os.system(clear_command)
   palabra = "WebCrawler Coursera"
 
   # Imprimir el rectángulo con la palabra
@@ -155,7 +154,7 @@ while True:
   print(f"{Fore.YELLOW}{'*' * (len(palabra) + 4)}")
 
   print("[+] Preciona *B* Para buscar un nuevo curso")
-  print("[+] Preciona *Q* Para buscar un nuevo curso")
+  print("[+] Preciona *Q* Para salir del programa")
   des = input("[*] --> ")
   des = des.upper()
   if des == "B":

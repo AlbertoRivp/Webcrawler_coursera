@@ -175,9 +175,3 @@ while True:
     os.system(clear_command)
     print(f"{Fore.RED}[-] ERROR: Opción inválida")
 
-
-'''
-"pre-Algolia": (\w*algolia\w*?):"(.+?)" "Algolia" : "(\w{10}|\w{32})"\s*,\s*"(\w{10}|\w{32})"
-Send to:
-Everyone
-'''

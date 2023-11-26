@@ -3,7 +3,8 @@
 Extrae los cinco cursos mejores calificados, junto a los módulos que los componen, calificación y el tiempo aproximado para completarlos.
 
 ### Ejecución
-* Instalar librerias con:
+* Para instalar las librerías requeridas:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -18,4 +19,4 @@ python3 crawler.py
 
 ![Funcionamiento del programa](screenshots/inicio_demostracion.png)
 
-![Continuacion de ejecución](screenshots/continuacion.png)
+![Continuación de ejecución](screenshots/continuacion.png)
